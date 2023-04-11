@@ -13,7 +13,7 @@ const Pagina = (props) => {
         </Container>
       </div>
 
-      {props.children}
+      <Container>{props.children}</Container>
 
       <div
         style={{ width: "100%" }}
